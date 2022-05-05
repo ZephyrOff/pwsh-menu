@@ -16,7 +16,7 @@ Function Menu (){
         [Parameter(Mandatory=$True)][array]$Options,
         [Parameter(Mandatory=$False)][string]$Background = "Black",
         [Parameter(Mandatory=$False)][string]$Foreground = "Yellow",
-        [Parameter(Mandatory=$False)][string]$Pointer = ">"
+        [Parameter(Mandatory=$False)][string]$Pointer = ">",
         [Parameter(Mandatory=$False)][string]$Padding = 2
     )
 
